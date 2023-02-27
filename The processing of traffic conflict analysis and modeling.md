@@ -45,6 +45,7 @@ In the Step_2 we need remove the noise and delete the incurable trajectories. th
 <a  >
    
 </a>
+
 #### 3.Calucating the surgery safety indicators
 
 
