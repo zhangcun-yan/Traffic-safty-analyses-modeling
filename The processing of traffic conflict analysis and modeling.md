@@ -39,7 +39,7 @@ The code for formatting the original trajectory use the [code]([Traffic-safty-an
 |    ...   |  n     |     car    |-------|-------|-------|-------|-----|-----|------|------|
 |     2    |  1     |     bus    |-------|-------|-------|-------|-----|-----|------|------|
 
-
+<br>
 
 #### 2.Clearing the formation date
 In the Step_2 we need remove the noise and delete the incurable trajectories. the Wavelet filter was employed to process the noise trajectory with the [code](). The incurable trajectory were delete by the manual. 
@@ -50,37 +50,11 @@ In the Step_2 we need remove the noise and delete the incurable trajectories. th
 
 
 
-> - Qibin Zhao, Liqing Zhang, Andrzej Cichocki (2015). [Bayesian CP factorization of incomplete tensors with automatic rank determination](https://doi.org/10.1109/TPAMI.2015.2392756). IEEE Transactions on Pattern Analysis and Machine Intelligence, 37(9): 1751-1763.
 
-<a href="https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BCPF.tex">
-<img src="BayesNet/BCPF.png" alt="drawing" width="280" align="right"/>
-</a>
-which shows the Bayesian network of Bayesian CP factorization (BCPF) model. To draw this Bayesian network example, there are some preliminaries to follow:
 
-<br>
 
-- **`preamble` codes**:
-  1. define the `documentclass` as `standalone`, e.g., `\documentclass[border = 0.1cm]{standalone}` with 0.1cm border,
-  2. use the package `tikz`, i.e., `\usepackage{tikz}`, and use `tikz` library like `\usetikzlibrary{bayesnet}` which is an important tool for drawing Bayesian networks and directed factor graphs,
-  3. set the `tikz` style by using the `\tikzstyle{}` command,
-  4. use math equation environments including `\usepackage{amsfonts, amsmath, amssymb}`.
-- **`body` codes**:
-  1. use `\begin{tikzpicture} \end{tikzpicture}` to start drawing,
-  2. use `\node` to define nodes and text boxes in the Bayesian network,
-  3. use `\path` to define arrows in the Bayesian network,
-  4. use `\plate` to define plates in the Bayesian network.
-
-> Please click on the image and check out the source code.
 
 <br>
 
 
 
-
-- Open [BGCP.tex](https://github.com/xinychen/awesome-latex-drawing/blob/master/BayesNet/BGCP.tex) in your overleaf project, then you will see the following pictures about BGCP (Bayesian Gaussian CP decomposition) model as a Bayesian network and a directed factor graph:
-
-<p align="center">
-<img align="middle" src="BayesNet/BGCP.png" width="700" />
-</p>
-
-<br>
