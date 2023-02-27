@@ -43,11 +43,12 @@ The code for formatting the original trajectory use the [code]([Traffic-safty-an
 
 #### 2.Clearing the formation date
 In the Step_2 we need remove the noise and delete the incurable trajectories. the Wavelet filter was employed to process the noise trajectory with the [code](). The incurable trajectory were delete by the manual. 
-
-
+<a  >
+   
+</a>
 ##### [Example 1]
 
-This example is from the following paper:
+
 
 > - Qibin Zhao, Liqing Zhang, Andrzej Cichocki (2015). [Bayesian CP factorization of incomplete tensors with automatic rank determination](https://doi.org/10.1109/TPAMI.2015.2392756). IEEE Transactions on Pattern Analysis and Machine Intelligence, 37(9): 1751-1763.
 
