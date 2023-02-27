@@ -23,7 +23,7 @@ introduce the
   <br>
 
 
-### 1.Formatting the original trajectory data
+### 1. Formatting the original trajectory data
 
 Vehicle trajectory record the procession of vehicle motion that contain the spatio-temporal information. Due to the trajectory from different sensors with different formats, we should standardizate the output data from the different sensors befor the beginning of processing. In this project，we define the trajectory format as the Table 1. The orginal trajectory of this project extracted by Yolov7+Deepsort, MaskRcNN and Datafromsky. You can get the trajectory from Datafromsky by the [link](https://drive.google.com/file/d/1lQuGvIBc-apCCxEdDFJZZ7eMZ9YtxTnB/view?usp=share_link) in Google drive. 
 
@@ -40,29 +40,29 @@ The code for formatting the original trajectory use the [code]([Traffic-safty-an
 |     2    |  1     |     bus    |-------|-------|-------|-------|-----|-----|------|------|
 <br>
 
-#### 2.Clearing the formation date
+#### 2. Clearing the formation date
 In the Step_2 we need remove the noise and delete the incurable trajectories. the Wavelet filter was employed to process the noise trajectory with the [code](). The incurable trajectory were delete by the manual. 
 <a  >
    
 </a>
 
-#### 3.Calucating the surgery safety indicators
+#### 3. Calucating the surgery safety indicators
 
 
 
 
 
-#### 4.Extracting the conflict events
+#### 4. Extracting the conflict events
 
 
 
 
-#### 5.Defining the effect variable
+#### 5. Defining the effect variable
 
 
 
 
-#### 6.Establishing the model of conflict procession
+#### 6. Establishing the model of conflict procession
 
 
 <br>
