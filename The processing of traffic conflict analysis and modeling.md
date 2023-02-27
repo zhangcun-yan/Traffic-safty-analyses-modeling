@@ -38,7 +38,6 @@ The code for formatting the original trajectory use the [code]([Traffic-safty-an
 |    ...   |--------|     car    |-------|-------|-------|-------|-----|-----|------|------|
 |    ...   |  n     |     car    |-------|-------|-------|-------|-----|-----|------|------|
 |     2    |  1     |     bus    |-------|-------|-------|-------|-----|-----|------|------|
-
 <br>
 
 #### 2.Clearing the formation date
