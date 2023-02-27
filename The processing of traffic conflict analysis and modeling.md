@@ -46,12 +46,23 @@ In the Step_2 we need remove the noise and delete the incurable trajectories. th
 <a  >
    
 </a>
-##### [Example 1]
+#### 3.Calucating the surgery safety indicators
 
 
 
 
 
+#### 4.Extracting the conflict events
+
+
+
+
+#### 5.Defining the effect variable
+
+
+
+
+#### 6.Establishing the model of conflict procession
 
 
 <br>
