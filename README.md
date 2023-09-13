@@ -65,6 +65,17 @@ In the Step_2 we need remove the noise and delete the incurable trajectories. th
 #### 6. Establishing the model of conflict procession
 
 
+
+###### some tutorial for convert the file from PDF to Word
+# @ yanzhangcun
+from pdf2docx import Converter
+pdf_file = "E:/Runge_Causal_Inference_for_Time_Series_NREE.pdf"
+docx_file = "E:/NREE.docx"
+cv = Converter(pdf_file)
+cv.convert(docx_file)
+cv.close()
+
+
 <br>
 
 
