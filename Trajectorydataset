@@ -1,0 +1,4 @@
+
+It's trajectory dataset of foure mixed intersection from Shanghai. In these intersection, more complexity traffic events were recorded by high-resolution trajectory.
+We extracted these trajectory from high-resolution video by Yolov7+DeepSort. To handle the local missing problems and outline problems, we have proposed a new processing method
+which integrate the Parcilt filter and Social force model.
